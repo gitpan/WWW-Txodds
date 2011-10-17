@@ -18,5 +18,9 @@ no_index:
     - t
     - inc
 requires:
+  Carp: 0
+  HTTP::Request::Common: 0
+  LWP::UserAgent: 0
   Test::More: 0
-version: 0.66
+  XML::LibXML::Simple: 0
+version: 0.67
