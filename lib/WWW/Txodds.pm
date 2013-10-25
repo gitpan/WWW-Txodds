@@ -9,7 +9,7 @@ require LWP::UserAgent;
 require XML::LibXML::Simple;
 require Carp;
 
-our $VERSION = '0.68';
+our $VERSION = '0.69';
 use constant DEBUG => $ENV{TXODDS_DEBUG} || 0;
 
 sub new {
@@ -301,6 +301,8 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 WWW::Txodds - TXOdds.com API Perl interface.
@@ -350,7 +352,7 @@ Usage:
 =head3 Sport - Master ID Groups
 
 TXODDS provides a list of specific Master ID Groups to allow you to request just the content for
-the sport and country that you require. For a full list of codes please see mgroups() or Appendix 2 – Master ID
+the sport and country that you require. For a full list of codes please see mgroups() or Appendix 2 - Master ID
 group codes in PDF doc.
 
 Usage:
@@ -1529,6 +1531,10 @@ Return ident and passwd
 "Alexander Babenko"
 C<foxcool@cpan.org>
 L<http://foxcool.ru>
+
+=head1 CONTRIBUTORS
+"Sergey Romanov"
+L<https://github.com/sergeyromanov>
 
 =head1 BUGS
 
